@@ -81,91 +81,69 @@
 	<RelativeLayout
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
+		android:layout_centerInParent="true"
 		android:layout_marginLeft="20dp"
 		android:layout_marginTop="70dp"
 		android:layout_marginRight="20dp"
-		android:layout_marginBottom="50dp">
+		android:layout_marginBottom="75dp">
 
-		<RelativeLayout
+		<LinearLayout
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
-			android:layout_marginTop="50dp"
-			android:layout_marginEnd="200dp"
-			android:layout_marginBottom="400dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
+			android:layout_marginRight="200dp"
+			android:orientation="vertical"
+			tools:context=".MainActivity">
 
 			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:src="@drawable/hyung"></ImageView>
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:background="@color/white"
+				android:src="@drawable/suga"></ImageView>
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:layout_marginTop="20dp"
+				android:background="@color/white"
+				android:src="@drawable/unggi"></ImageView>
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:layout_marginTop="20dp"
+				android:background="@color/white"
+				android:src="@drawable/wwh"></ImageView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
 			android:layout_marginLeft="200dp"
-			android:layout_marginTop="50dp"
-			android:layout_marginBottom="400dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
+			android:orientation="vertical"
+			tools:context=".MainActivity">
 
 			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:background="@color/white"
+				android:src="@drawable/jin"></ImageView>
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:layout_marginTop="20dp"
+				android:background="@color/white"
 				android:src="@drawable/yonggi"></ImageView>
 
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:layout_marginTop="250dp"
-			android:layout_marginRight="200dp"
-			android:layout_marginBottom="200dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
-
 			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:src="@drawable/suga"></ImageView>
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:layout_marginLeft="200dp"
-			android:layout_marginTop="250dp"
-			android:layout_marginBottom="200dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
+				android:layout_width="wrap_content"
+				android:layout_height="180dp"
+				android:layout_marginTop="20dp"
+				android:background="@color/white"
+				android:src="@drawable/hyung"></ImageView>
 
-			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:src="@drawable/wwh"></ImageView>
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:layout_marginTop="450dp"
-			android:layout_marginRight="200dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
+		</LinearLayout>
 
-			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:src="@drawable/jin"></ImageView>
-		</RelativeLayout>
-		<RelativeLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:layout_marginLeft="200dp"
-			android:layout_marginTop="450dp"
-			android:background="@drawable/sukma_box"
-			android:orientation="horizontal">
-
-			<ImageView
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:src="@drawable/unggi"></ImageView>
-		</RelativeLayout>
+		"
+	</RelativeLayout>
+</RelativeLayout>
